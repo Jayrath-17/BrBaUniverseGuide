@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/welcome_text_style"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Breaking Bad Episode Guide \n\t- Catch Up on Breaking Bad"
+    android:layout_margin="5dp"
+    android:gravity="start"
+    android:textAppearance="@style/Widget.Support.CoordinatorLayout"
+    android:textSize="15dp"
+    android:textStyle="italic"/>
+
+    <Spinner
+        android:id="@+id/select_seasons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/spinnerstyle"
+
+    />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pro"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/myrecycleview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/select_seasons">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

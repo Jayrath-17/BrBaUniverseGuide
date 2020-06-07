@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "966891794788",
+    "firebase_url": "https://breaking-bad-universe.firebaseio.com",
+    "project_id": "breaking-bad-universe",
+    "storage_bucket": "breaking-bad-universe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966891794788:android:e86ef0871b342a62940a71",
+        "android_client_info": {
+          "package_name": "com.example.breakingbaduniverse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966891794788-djp5remu2b6ipe7mmmsnpjhg3l7h9c76.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.breakingbaduniverse",
+            "certificate_hash": "a348552bc210db509be3e9fce1394925e8b8e52d"
+          }
+        },
+        {
+          "client_id": "966891794788-e30mste285c9ihgv4ehc46i7vhnc4glp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTP__XO0yVFs6ZiOQn6am2G26MQV2T6gY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966891794788-e30mste285c9ihgv4ehc46i7vhnc4glp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

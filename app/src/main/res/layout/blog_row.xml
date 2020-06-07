@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardBackgroundColor="#8BC34A"
+    android:layout_margin="10dp"
+    android:elevation="90dp"
+    app:cardCornerRadius="15dp">
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#7C0E06"
+        android:layout_margin="4dp">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#758109">
+
+            <ImageView
+             android:id="@+id/card_image"
+             android:layout_width="200dp"
+             android:layout_height="250dp"
+             app:srcCompat="@drawable/moriarty"
+             android:scaleType="centerCrop"
+            />
+
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#7C0E06"
+        android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/episode_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/card_image"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="5dp"
+                    android:maxLines="2"
+                    android:text="Season x Episode x"
+                    android:textAlignment="center"
+                    android:textColor="#D1E417"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/episode_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:maxLines="2"
+                    android:text="Name: Pilot"
+                    android:textAlignment="center"
+                    android:textColor="#08F012"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Dead_count_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/card_highlights"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Body Count:"
+                    android:textAllCaps="true"
+                    android:textColor="#FFEB3B"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Dead_souls_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/card_highlights"
+                    android:layout_gravity="center"
+                    android:maxLines="3"
+                    android:paddingLeft="5dp"
+                    android:text="counting...."
+                    android:textColor="#B1A43C"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/episode_heighlights"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="7"
+            android:text="HighLights Are Here"
+            android:layout_marginBottom="5dp"
+            android:textStyle="italic"
+            android:textColor="#D9E7E7"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:scrollbars="horizontal"
+            android:scrollbarAlwaysDrawHorizontalTrack="true"
+            android:layout_marginRight="4dp"
+            />
+           <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content" android:text="Quote:"
+                 android:id="@+id/quote_textview"
+                 android:textColor="#4CAF50"
+                 android:textStyle="bold"
+                 android:textSize="15dp"
+                 android:layout_marginLeft="5dp"
+            />
+
+            <TextView
+                android:id="@+id/quote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="3"
+                android:text="Here Goes The Quote:I'm the one who Knocks"
+                android:layout_below="@+id/quote_textview"
+                android:textStyle="bold|italic"
+                android:textColor="#D1E417"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:scrollbars="vertical"
+                android:layout_marginRight="4dp"
+            />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

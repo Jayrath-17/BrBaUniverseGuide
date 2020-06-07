@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Br Ba Universe</string>
+    <string name="Dummy_Highlight">Breaking Bad is an American neo-Western crime drama television series created and produced by Vince Gilligan.
+        The show aired on AMC from January 20, 2008 to September 29, 2013, consisting of five seasons for a total of 62 episodes.
+        It was set and filmed in Albuquerque, New Mexico, and tells the story of Walter White (Bryan Cranston),
+        an underemployed and depressed high school chemistry teacher who is struggling with a recent diagnosis of stage-three lung cancer.
+        White turns to crime, partnering with his former</string>
+    <string-array name="SelectSeason">
+        <item>Season 1</item>
+        <item>Season 2</item>
+        <item>Season 3</item>
+        <item>Season 4</item>
+        <item>Season 5</item>
+    </string-array>
+    <string name="more_option">More..</string>
+    <string name="minimize_option">Minimize..</string>
+</resources>
